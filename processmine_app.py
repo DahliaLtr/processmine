@@ -1343,7 +1343,7 @@ if st.session_state.step >= 3:
                             st.info("💡 Make sure graphviz is installed: apt-get install graphviz")
                 
                 if st.session_state.discovery_img:
-                    st.image(st.session_state.discovery_img, use_column_width=True)
+                    st.image(st.session_state.discovery_img, use_container_width=True)
             else:
                 st.markdown("""<div class="pm-card" style="text-align:center;padding:3rem;">
                     <div style="font-size:3rem;margin-bottom:1rem;">⬡</div>
